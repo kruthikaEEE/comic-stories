@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // import useNavigate
-import Aurora from '../assets/aurora.mp4';
+import Aurora from '../assets/Aurora.mp4';
 import CuteCommie from '../assets/cute commie.png';
 
 const AuroraMagic = () => {
