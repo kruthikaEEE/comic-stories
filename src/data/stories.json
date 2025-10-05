@@ -1,0 +1,120 @@
+{
+  "stories": [
+    {
+      "id": "cammie-cme",
+      "title": "Cammie the CME",
+      "subtitle": "Coronal Mass Ejection Adventure",
+      "description": "Join Cammie, a glowing cloud of solar particles, as she leaves the Sun on an exciting journey to Earth!",
+      "icon": "🌟",
+      "color": "from-orange-500 to-red-600",
+      "chapters": [
+        {
+          "id": "intro",
+          "title": "Cammie's Big Decision",
+          "text": "Hi! I'm Cammie, a Coronal Mass Ejection from the Sun! I'm made of billions of tiny particles, and today I'm zooming toward Earth. But I have a choice to make...",
+          "animation": "cme-launch",
+          "choices": [
+            {
+              "text": "Float softly to Earth",
+              "next": "gentle"
+            },
+            {
+              "text": "Blast with a Boom!",
+              "next": "wild"
+            }
+          ]
+        },
+        {
+          "id": "gentle",
+          "title": "The Gentle Visit",
+          "text": "I decided to take it slow! As I reach Earth's magnetic field, I create beautiful dancing auroras in the sky. People below look up in wonder at the green and purple lights!",
+          "animation": "aurora-gentle",
+          "choices": [
+            {
+              "text": "See the Outcome",
+              "next": "ending-gentle"
+            }
+          ]
+        },
+        {
+          "id": "wild",
+          "title": "The Wild Rush!",
+          "text": "Whoosh! I'm rushing toward Earth super fast! My powerful energy hits satellites and creates spectacular auroras, but I also cause some communication problems. Uh oh!",
+          "animation": "cme-impact",
+          "choices": [
+            {
+              "text": "See What Happens",
+              "next": "ending-wild"
+            }
+          ]
+        },
+        {
+          "id": "ending-gentle",
+          "title": "A Beautiful Show",
+          "text": "Thanks to my gentle approach, Earth enjoyed a beautiful light show without any problems! Scientists were happy, and people took amazing photos of the auroras. Mission accomplished!",
+          "animation": "aurora-dance",
+          "isEnding": true
+        },
+        {
+          "id": "ending-wild",
+          "title": "Learning to Be Careful",
+          "text": "My wild energy created amazing auroras, but also disrupted some technology. Next time, I'll remember that being powerful means being responsible! Earth's magnetic field protected everyone, though!",
+          "animation": "satellite-protect",
+          "isEnding": true
+        }
+    ]
+      },
+      {
+        "id": "raye-gcr",
+        "title": "Raye the GCR",
+        "subtitle": "Galactic Cosmic Ray Adventure",
+        "description": "Meet Raye, a speedy galactic cosmic ray zipping through space and leaving tiny sparkles in her wake!",
+        "icon": "☄️",
+        "color": "from-indigo-500 to-cyan-500",
+        "chapters": [
+          {
+            "id": "intro",
+            "title": "Raye's Journey",
+            "text": "Hi! I'm Raye, a galactic cosmic ray racing across the galaxy. I love bouncing through magnetic fields and painting little glints on planets!",
+            "animation": "gcr-travel",
+            "choices": [
+              { "text": "Take a quiet detour", "next": "gentle" },
+              { "text": "Zip with full speed", "next": "wild" }
+            ]
+          },
+          {
+            "id": "gentle",
+            "title": "A Gentle Brush",
+            "text": "Raye glides gently past a planet, creating shimmering micro-auroras that make the sky twinkle softly.",
+            "animation": "gcr-gentle",
+            "choices": [
+              { "text": "See the glow", "next": "ending-gentle" }
+            ]
+          },
+          {
+            "id": "wild",
+            "title": "A Zippy Impact",
+            "text": "Raye zips too quickly and causes an unexpected bright flash. It's exciting but reminds Raye to be mindful.",
+            "animation": "gcr-impact",
+            "choices": [
+              { "text": "See what happened", "next": "ending-wild" }
+            ]
+          },
+          {
+            "id": "ending-gentle",
+            "title": "Soft Glow",
+            "text": "Raye's gentle pass gave the planet tiny sparkles and a soft glow—everyone smiled and photographed the sky.",
+            "animation": "gcr-dance",
+            "isEnding": true
+          },
+          {
+            "id": "ending-wild",
+            "title": "Lesson Learned",
+            "text": "Raye learned that speed is fun but care matters—next time she'll pick a kinder route.",
+            "animation": "gcr-lesson",
+            "isEnding": true
+          }
+        ]
+      }
+  ]
+}
