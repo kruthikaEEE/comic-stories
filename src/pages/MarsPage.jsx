@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import marsImage from '../assets/Mars.jpeg';
+import marsImage from '../assets/mars.jpeg';
 import icon1 from '../assets/mars.jpeg';
 import icon2 from '../assets/M1.png';
 import icon3 from '../assets/As1.jpeg';
