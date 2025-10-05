@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import fierceCammie from '../assets/fierceCammie.mp4';
-import FierceCommie from '../assets/FierceCommie.png';
+import FierceCommie from '../assets/FierceCommie.webp';
 import earthImg from '../assets/earth1.jpg';
-import satelliteImg from '../assets/satellite.png';
+import satelliteImg from '../assets/satellite.webp';
 
 const FierceCommiePage = () => {
   const navigate = useNavigate();

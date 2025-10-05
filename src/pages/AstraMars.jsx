@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import astroImg from '../assets/M1.png';
+import astroImg from '../assets/M1.webp';
 import astro1 from '../assets/As1.jpeg';
 import astro2 from '../assets/As1.jpeg';
 import astro3 from '../assets/As1.jpeg';

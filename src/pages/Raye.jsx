@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import rayeImg from '../assets/Raye.png';
-import satIcon from '../assets/satellite.png';
-import cammieIcon from '../assets/CME1.png';
+import rayeImg from '../assets/Raye.webp';
+import satIcon from '../assets/satellite.webp';
+import cammieIcon from '../assets/CME1.webp';
 
 const Raye = () => {
   const navigate = useNavigate();

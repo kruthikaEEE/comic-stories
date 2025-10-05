@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import CME1 from '../assets/CME1.png';
-import CuteCommie from '../assets/cute commie.png';
-import FierceCommie from '../assets/FierceCommie.png';
+import CME1 from '../assets/CME1.webp';
+import CuteCommie from '../assets/cute commie.webp';
+import FierceCommie from '../assets/FierceCommie.webp';
 import Meteror from '../assets/meteror.mp4';
 
 const StoryPage = () => {

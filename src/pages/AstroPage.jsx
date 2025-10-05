@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import auroraTopImg from '../assets/astra2.png'; // Top left image
-import auroraCardImg from '../assets/astranaut.png';   // Bottom card left image
+import auroraTopImg from '../assets/astra2.webp'; // Top left image
+import auroraCardImg from '../assets/astranaut.webp';   // Bottom card left image
 
 const AurorasPage = () => {
   const navigate = useNavigate();

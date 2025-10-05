@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import rayeVideo from '../assets/RayeEarth.mp4';
 import icon1 from '../assets/earth.jpeg';
-import icon2 from '../assets/astranaut.png';
-import icon3 from '../assets/sat.png';
+import icon2 from '../assets/astranaut.webp';
+import icon3 from '../assets/sat.webp';
 
 const EarthPage = () => {
   const navigate = useNavigate();

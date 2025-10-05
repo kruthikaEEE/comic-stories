@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import AuroraGif from '../assets/aurora-gif.gif';
-import CuteCommie from '../assets/cute commie.png';
+import CuteCommie from '../assets/cute commie.webp';
 
 const Aurora2Page = () => {
   return (

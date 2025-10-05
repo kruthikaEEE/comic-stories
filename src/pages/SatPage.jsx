@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import astronautImg from '../assets/Raye.png';
-import satelliteImg from '../assets/sat.png';
+import astronautImg from '../assets/Raye.webp';
+import satelliteImg from '../assets/sat.webp';
 
 const dialogues = [
   { type: 'astronaut', text: "Hello, shiny human-sky-box! Are you awake up here?" },

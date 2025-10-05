@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import auroraPic from '../assets/astranaut.png';
+import auroraPic from '../assets/astranaut.webp';
 import auroraGif2 from '../assets/aurora-gif2.gif';
 
 const AurorasPage = () => {

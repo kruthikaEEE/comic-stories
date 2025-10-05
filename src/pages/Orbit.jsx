@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import orbitImg1 from '../assets/Raye.png';
-import satImg from '../assets/Msat.png';   // Satellite image
-import rayeImg from '../assets/Raye.png';  // Raye image
+import orbitImg1 from '../assets/Raye.webp';
+import satImg from '../assets/Msat.webp';   // Satellite image
+import rayeImg from '../assets/Raye.webp';  // Raye image
 
 const Orbit = () => {
   const navigate = useNavigate();

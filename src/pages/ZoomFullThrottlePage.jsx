@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import sadSat from '../assets/sadSat.png';
-import women from '../assets/women.png';
-import astranaut from '../assets/astranaut.png';
-import cuteBoy from '../assets/cuteBoy.png';
+import sadSat from '../assets/sadSat.webp';
+import women from '../assets/women.webp';
+import astranaut from '../assets/astranaut.webp';
+import cuteBoy from '../assets/cuteBoy.webp';
 
 const dialogues = [
   { img: sadSat, text: "Oh nooo! Somebody stop that fiery zoom-ball! 🛰️💫 My circuits are doing the cha-cha dance! 💃 I’m not built for roller coasters, Cammie! Next time, use your brakes before you shake me into space spaghetti! 😵‍💫" },

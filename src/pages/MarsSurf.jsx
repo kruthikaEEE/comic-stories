@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import marsSurfaceImg1 from '../assets/res.png';
-import marsSurfaceImg2 from '../assets/RM.png';
-import marsAstroImg from '../assets/astraM.png';
+import marsSurfaceImg1 from '../assets/res.webp';
+import marsSurfaceImg2 from '../assets/RM.webp';
+import marsAstroImg from '../assets/astraM.webp';
 
 const MarsSurf = () => {
   const navigate = useNavigate();
